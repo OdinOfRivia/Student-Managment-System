@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.actualsms.SubjectDelete">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" opacity="0.29">
+         <image>
+            <Image url="@../../../img/MIT_Seal.svg.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="243.0" layoutY="43.0" prefHeight="40.0" prefWidth="154.0" text="Delete Class">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="545.0" layoutY="14.0" mnemonicParsing="false" onAction="#backBTN" text="Back" />
+      <Button layoutX="397.0" layoutY="209.0" mnemonicParsing="false" onAction="#deleteBTN" text="Delete" />
+      <TextField fx:id="idtext" layoutX="348.0" layoutY="123.0" promptText="                 ID" />
+      <TableView fx:id="tableID" layoutX="135.0" layoutY="86.0" prefHeight="228.0" prefWidth="165.0">
+        <columns>
+          <TableColumn fx:id="id" prefWidth="75.0" text="ID" />
+          <TableColumn fx:id="classNameID" prefWidth="89.0" text="Class Name " />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

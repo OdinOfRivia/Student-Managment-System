@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.actualsms.StudentInfo">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" opacity="0.29">
+         <image>
+            <Image url="@../../../img/MIT_Seal.svg.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="493.0" layoutY="337.0" mnemonicParsing="false" onAction="#enter" text="Enter" />
+      <Button layoutX="534.0" layoutY="14.0" mnemonicParsing="false" onAction="#back" text="Back" />
+      <TextField fx:id="id2" layoutX="226.0" layoutY="168.0" promptText="                  ID" />
+      <Label fx:id="LastName" layoutX="244.0" layoutY="27.0" prefHeight="40.0" prefWidth="112.0" text="LastName">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="FirstName" layoutX="43.0" layoutY="27.0" prefHeight="40.0" prefWidth="112.0" text="FirstName">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="email" layoutX="425.0" layoutY="27.0" prefHeight="40.0" prefWidth="112.0" text="Email">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="FirstName1" layoutX="36.0" layoutY="310.0" prefHeight="40.0" prefWidth="160.0" text="phoneNumber">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="Country" layoutX="36.0" layoutY="180.0" prefHeight="40.0" prefWidth="160.0" text="Country">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="FirstName11" layoutX="442.0" layoutY="161.0" prefHeight="40.0" prefWidth="73.0" text="Age">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
